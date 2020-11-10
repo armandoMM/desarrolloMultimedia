@@ -1,12 +1,14 @@
 Vue.component("cards", {
   template: `
     <section class="card">
-      <h1>
-      {{ title }}
-      </h1>
-      <p>
-      {{ desciption }}
-      </p>
+      <article>
+        <h1>
+        {{ title }}
+        </h1>
+        <p>
+        {{ desciption }}
+        </p>
+      </article>
     </section>
   `,
   data() {
