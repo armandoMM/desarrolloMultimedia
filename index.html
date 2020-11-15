@@ -3,26 +3,37 @@
 <head>
   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@1,800&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
   <title>El mundo del 5G</title>
 </head>
 <body topmargin="0" leftmargin="0" rightmargin="0">
   <header>
-    <!-- <div class="banner"></div> -->
     <img src="5G/banner.png" alt="banner" class="banner">
   </header>
   <div id="app">
-    <my-menu></my-menu>
-    <cards></cards>
+    <v-app>
+      <v-main>
+        <!-- <v-container>Hello world</v-container> -->
+        <my-menu></my-menu>
+        <cards></cards>
+      </v-main>
+    </v-app>
+    
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
   <script src="main.js"></script>
   <script src="contents.js"></script>
   <script type="text/javascript">
     const app= new Vue({
       el:"#app",
+      vuetify: new Vuetify(),
       data:{
       },
     });
