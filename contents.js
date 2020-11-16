@@ -1,8 +1,8 @@
 Vue.component("cards", {
   template: `
     <section class="card">
-      <article>
-        <h1>
+      <article class ="my-card">
+        <h1 class ="title-cont">
         {{ title }}
         </h1>
         <p>

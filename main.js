@@ -18,7 +18,6 @@ Vue.component("my-menu", {
         "¿MI TELÉFONO SOPORTARÁ 5G?",
       ],
       title: "",
-      desciption: "",
     };
   },
   methods: {},
