@@ -2,7 +2,7 @@ Vue.component("my-menu", {
   template: `
   <nav class="menu">
     <ul>
-      <li v-for=" opc in options">{{ opc }}</li>
+      <li v-for=" opc in options" v-model="option"><a href="">{{ opc }}</a></li>
     </ul>
   </nav>
   `,
@@ -10,10 +10,10 @@ Vue.component("my-menu", {
     return {
       options: [
         "¿QUÉ ES EL 5G?",
-        "COMO FUNCIONA",
+        "¿CÓMO FUNCIONA?",
         "CARACTERÍSTICAS",
         "VENTAJAS",
-        "DESVANTAJAS",
+        "DESVENTAJAS",
         "5G EN MÉXICO",
         "¿MI TELÉFONO SOPORTARÁ 5G?",
       ],
