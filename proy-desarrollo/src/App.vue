@@ -1,17 +1,21 @@
 <template>
   <div id="app">
     <header>
-      <img src="../../5G/banner.png" alt="banner" class="banner" />
+      <img src="../5G/banner.png" alt="banner" class="banner" />
     </header>
     <myMenu />
-    <cards />
+    <!-- <cards /> -->
+    <router-view />
   </div>
 </template>
 <script>
-import cards from "./components/cards.vue";
+//import cards from "./components/cards.vue";
 import myMenu from "./components/my-menu.vue";
 export default {
-  components: { cards, myMenu },
+  components: {
+    //cards,
+    myMenu,
+  },
 };
 </script>
 <style>
@@ -53,6 +57,14 @@ li {
 
 .title-cont {
   color: #4f9c7a;
+  text-align: center;
+}
+
+.title {
+  color: #88b85a;
+}
+
+.home {
   text-align: center;
 }
 /* #app {
