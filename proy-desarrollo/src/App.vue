@@ -1,13 +1,23 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <header><img src="@/assets/banner.png" alt="" /></header>
+    <myMenu />
+    <cards>
+      <template v-slot:Cards></template>
+    </cards>
     <router-view />
   </div>
 </template>
-
+<script>
+import cards from "./components/cards.vue";
+import myMenu from "./components/my-menu.vue";
+export default {
+  components: {
+    cards,
+    myMenu,
+  },
+};
+</script>
 <style>
 body {
   /* background-color: #ffffff;
@@ -51,9 +61,5 @@ li {
   text-align: center;
   font-family: "Exo 2", sans-serif;
   font-size: 184;
-}
-
-.title {
-  color: #88b85a;
 }
 </style>

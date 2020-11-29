@@ -1,12 +1,7 @@
 <template>
   <section class="card">
     <article class="my-card">
-      <h1 class="title-cont">
-        {{ title }}
-      </h1>
-      <p>
-        {{ desciption }}
-      </p>
+      <slot name="Cards"> </slot>
     </article>
   </section>
 </template>
