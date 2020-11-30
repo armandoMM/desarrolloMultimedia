@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" topmargin="0">
     <header><img src="@/assets/banner.png" alt="" /></header>
     <myMenu />
     <cards>
@@ -27,18 +27,32 @@ body {
   font-family: "Exo 2", sans-serif;
 }
 
+.mensaje {
+  font-family: "Piedra", cursive;
+  text-align: center;
+}
+
 .menu {
-  padding: 20px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
   background-color: #88b85a;
-  font-size: 96;
+  font-size: 145%;
   width: 300px;
-  height: 600px;
+  height: 690px;
   float: left;
+}
+
+p {
+  font-size: 110%;
 }
 
 li {
   list-style: none;
-  margin: 55px 0 0 5px;
+  margin: 50px 0 0 5px;
+}
+
+.routes {
+  text-decoration: none;
+  color: #3c3f3a;
 }
 
 .banner {
@@ -53,13 +67,19 @@ li {
 }
 
 .my-card {
-  margin: 30px 0px 0px 60px;
+  margin: 20px 60px 0px 60px;
 }
 
 .title-cont {
   color: #4f9c7a;
   text-align: center;
-  font-family: "Exo 2", sans-serif;
-  font-size: 184;
+  font-size: 200%;
+}
+
+.image {
+  border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>

@@ -8,10 +8,10 @@
             En esta página encontrarás todo lo que necesitas saber acerca de la
             red 5G.
           </p>
-          <img src="../assets/images.jpg" alt="5G" />
+          <img class="image" src="../assets/images.jpg" alt="5G" />
           <p>
             Además de información tenemos audios y videos complementarios para
-            que puedas entender de forma clara a la red 5G
+            que puedas entender de forma clara a la red 5G.
           </p>
           <p>
             Te suguiero que sigas el orden en el que aparecen los temas en el
@@ -19,7 +19,10 @@
             conocimientos acerca del 5G, puedes saltarte directamente los temas
             que te interesan.
           </p>
-          <h3>SIN NADAMÁS QUE DECIR QUE TENGAS UN BUEN VIAJE INTERNAUTA.</h3>
+          <br /><br />
+          <h3 class="mensaje">
+            SIN NADAMÁS QUE DECIR QUE TENGAS UN BUEN VIAJE INTERNAUTA.
+          </h3>
         </section>
       </div>
     </template>
@@ -34,7 +37,6 @@ export default {
   name: "Home",
   components: {
     cards,
-    //HelloWorld
   },
 };
 </script>
