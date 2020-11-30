@@ -1,6 +1,6 @@
 <template>
   <div id="app" topmargin="0">
-    <header><img src="@/assets/banner.png" alt="" /></header>
+    <header><img src="@/assets/img/banner.png" alt="" /></header>
     <myMenu />
     <cards>
       <template v-slot:Cards></template>
@@ -81,5 +81,17 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.btn {
+  width: 140px;
+  height: 75px;
+  background-color: #4f9c7a;
+  color: #ffffff;
+}
+
+.btn2 {
+  position: relative;
+  left: 500px;
 }
 </style>

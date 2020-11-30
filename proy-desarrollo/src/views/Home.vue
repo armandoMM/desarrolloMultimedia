@@ -8,7 +8,7 @@
             En esta página encontrarás todo lo que necesitas saber acerca de la
             red 5G.
           </p>
-          <img class="image" src="../assets/images.jpg" alt="5G" />
+          <img class="image" src="../assets/img/images.jpg" alt="5G" />
           <p>
             Además de información tenemos audios y videos complementarios para
             que puedas entender de forma clara a la red 5G.
