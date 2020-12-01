@@ -1,0 +1,25 @@
+{
+  "pages": [
+    {
+      "title":"CARACTERÍSTICAS", 
+      "description":"BANDA ANCHA MEJORADA  Sin duda, la transformación a 5G cambiará la forma en que interactuamos con la tecnología en el día a día, pero también tiene un propósito serio. Es una necesidad absoluta si queremos seguir utilizando la banda ancha móvil.  Los transportistas se están quedando sin capacidad de red 4G en muchas áreas metropolitanas importantes. En algunas ciudades, los usuarios ya están experimentando desaceleraciones durante las horas pico del día. Por esta razón, la red 5G agrega enormes cantidades de espectro para satisfacer la demanda de banda ancha.",
+      "imagen":1, 
+      "video":false,
+      "audio":false 
+    },
+    {
+      "title":"CARACTERÍSTICAS", 
+      "description":"COCHES AUTÓNOMOS  Gracias a la velocidad de conexión de la red 5G, en el futuro, tu vehículo se comunicará con otros autos en la carretera, brindará información a otros automóviles sobre las condiciones de la carretera y brindará información de rendimiento a los conductores y fabricantes de automóviles.  Si un automóvil frena rápidamente hacia adelante, el tuyo puede aprender de inmediato y también frenar para prevenir una colisión.",
+      "imagen":2, 
+      "video":false,
+      "audio":false
+    },
+    {
+      "title":"CARACTERÍSTICAS", 
+      "description":"CUIDADO DE LA SALUD  El componente ultra confiable de comunicaciones de baja latencia (URLLC, por sus siglas) de 5G cambiará fundamentalmente la atención médica. Espera ver mejoras en la telemedicina, la recuperación remota y la terapia física, la cirugía de precisión e incluso la cirugía remota en los próximos años.",
+      "imagen":3, 
+      "video":false,
+      "audio":false 
+    }  
+  ]
+}

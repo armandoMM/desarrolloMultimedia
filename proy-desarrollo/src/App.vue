@@ -45,6 +45,12 @@ p {
   font-size: 110%;
 }
 
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 li {
   list-style: none;
   margin: 50px 0 0 5px;

@@ -24,6 +24,36 @@ const routes = [
     name: "topicOne",
     component: () => import("../views/topic1.vue"),
   },
+  {
+    path: "/como-funciona",
+    name: "topicTwo",
+    component: () => import("../views/topic2.vue"),
+  },
+  {
+    path: "/caracteristicas",
+    name: "topicThree",
+    component: () => import("../views/topic3.vue"),
+  },
+  {
+    path: "/ventajas",
+    name: "topicFour",
+    component: () => import("../views/topic4.vue"),
+  },
+  {
+    path: "/desventajas",
+    name: "topicFive",
+    component: () => import("../views/topic5.vue"),
+  },
+  {
+    path: "/5G-en-mexico",
+    name: "topicSix",
+    component: () => import("../views/topic6.vue"),
+  },
+  {
+    path: "/telefonos-con-soporte-5G",
+    name: "topicSeven",
+    component: () => import("../views/topic7.vue"),
+  },
 ];
 
 const router = new VueRouter({
