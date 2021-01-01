@@ -1,0 +1,11 @@
+{
+  "pages": [
+    {
+      "title":"VENTAJAS", 
+      "description":["Mayor número de dispositivos conectados "," Mayor velocidad en las conexiones de internet "," Menor latencia, mayor capacidad de ejecución a distancia "],
+      "imagen":0, 
+      "video":true,
+      "audio":false 
+    }
+  ]
+}
