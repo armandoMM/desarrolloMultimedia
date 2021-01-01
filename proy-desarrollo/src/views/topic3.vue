@@ -19,7 +19,7 @@
             v-if="img == 2"
           />
           <img
-            src="../assets/img/rapidez_5G.png"
+            src="../assets/img/repidez_5G.png"
             alt="rapidez 5G"
             class="image"
             v-if="img == 3"
@@ -80,9 +80,7 @@ export default {
       this.audio = this.datas.pages[this.counter].audio;
     },
     nextPage() {
-      if (this.counter == this.datas.pages.length) {
-        this.counter = this.datas.pages.length;
-      } else {
+      if (this.counter < this.datas.pages.length - 1) {
         this.counter += 1;
       }
       this.getContent();

@@ -57,15 +57,13 @@ export default {
       this.audio = this.datas.pages[this.counter].audio;
     },
     nextPage() {
-      if (this.counter == this.datas.pages.length) {
-        this.counter = this.datas.pages.length;
-      } else {
+      if (this.counter < this.datas.pages.length - 1) {
         this.counter += 1;
       }
       this.getContent();
     },
     prevPage() {
-      if (this.counter < 0) {
+      if (this.counter <= 0) {
         this.counter = 0;
       } else {
         this.counter -= 1;
