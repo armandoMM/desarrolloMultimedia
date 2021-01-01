@@ -13,16 +13,28 @@
             v-if="img == 1"
           />
           <img
-            src="../assets/img/autonomo.png"
-            alt="img auto autonomo"
+            src="../assets/img/latencia_2.png"
+            alt="img latencia 5G"
             class="image"
             v-if="img == 2"
           />
           <img
-            src="../assets/img/CIRUGIA.png"
-            alt="dispositivos 5G"
+            src="../assets/img/rapidez_5G.png"
+            alt="rapidez 5G"
             class="image"
             v-if="img == 3"
+          />
+          <img
+            src="../assets/img/conex_simult.png"
+            alt="Conexion simultanea"
+            class="image"
+            v-if="img == 4"
+          />
+          <img
+            src="../assets/img/economia_mundial.png"
+            alt="Economia con 5G"
+            class="image"
+            v-if="img == 5"
           />
         </section>
         <button class="btn" @click="prevPage">
@@ -76,7 +88,7 @@ export default {
       this.getContent();
     },
     prevPage() {
-      if (this.counter < 0) {
+      if (this.counter <= 0) {
         this.counter = 0;
       } else {
         this.counter -= 1;

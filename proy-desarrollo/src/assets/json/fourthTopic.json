@@ -6,6 +6,20 @@
       "imagen":0, 
       "video":true,
       "audio":false 
+    },
+    {
+      "title":"VENTAJAS", 
+      "description":["COCHES AUTÓNOMOS  Gracias a la velocidad de conexión de la red 5G, en el futuro, tu vehículo se comunicará con otros autos en la carretera, brindará información a otros automóviles sobre las condiciones de la carretera y brindará información de rendimiento a los conductores y fabricantes de automóviles.  Si un automóvil frena rápidamente hacia adelante, el tuyo puede aprender de inmediato y también frenar para prevenir una colisión."],
+      "imagen":0, 
+      "video":true,
+      "audio":false 
+    },
+    {
+      "title":"VENTAJAS", 
+      "description":["CUIDADO DE LA SALUD  El componente ultra confiable de comunicaciones de baja latencia (URLLC, por sus siglas) de 5G cambiará fundamentalmente la atención médica. Espera ver mejoras en la telemedicina, la recuperación remota y la terapia física, la cirugía de precisión e incluso la cirugía remota en los próximos años."],
+      "imagen":0, 
+      "video":true,
+      "audio":false 
     }
   ]
 }
