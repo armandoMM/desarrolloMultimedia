@@ -12,6 +12,13 @@
             class="image"
             v-if="img == 1"
           />
+          <audio
+            src="../assets/audio/concepto5G.mp3"
+            class="audio"
+            controls
+            v-if="audio"
+          />
+          <br />
         </section>
         <button class="btn" @click="prevPage">
           <i class="fas fa-3x fa-arrow-left"></i>

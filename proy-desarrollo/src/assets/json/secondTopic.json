@@ -18,8 +18,8 @@
       "title":"¿CÓMO FUNCINA LA RED 5G?", 
       "description":"Los teléfonos son como radios de doble sentido. Cuando llamas a alguien, el móvil convierte la voz en una señal eléctrica, la transmite hasta la torre de telefonía más cercana, la torre rebota la señal hasta que finalmente alcanza al receptor.  Cuando una nueva tecnología de transmisión inalámbrica llega al mercado se le asigna una frecuencia más alta. Por ejemplo, el 3G ocupa la frecuencia de bandas hasta los 20Mhz. En el caso del 5G, probablemente acabe en la banda que llega hasta los 6Ghz. Estas nuevas tecnologías ocupan bandas superiores porque no están ocupadas y mueven la información a más velocidad.",
       "imagen":0, 
-      "video":true,
-      "audio":false
+      "video":false,
+      "audio":true
     }  
   ]
 }

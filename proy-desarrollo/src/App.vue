@@ -82,6 +82,11 @@ li {
   font-size: 200%;
 }
 
+.audio {
+  display: block;
+  margin: 0 auto;
+}
+
 .image {
   border-radius: 15px;
   display: block;

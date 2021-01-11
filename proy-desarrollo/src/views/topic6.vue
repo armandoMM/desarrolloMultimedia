@@ -7,6 +7,13 @@
           <p>{{ content }}</p>
           <br /><br />
           <p>Audio sobre la llegada del 5G a México</p>
+          <audio
+            src="../assets/audio/5GMexico.mp3"
+            class="audio"
+            controls
+            v-if="audio"
+          />
+          <br />
         </section>
         <!-- <button class="btn" @click="prevPage">
           <i class="fas fa-3x fa-arrow-left"></i>
