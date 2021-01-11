@@ -87,6 +87,12 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
+}
+
+.image:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .btn {
@@ -94,6 +100,8 @@ li {
   height: 75px;
   background-color: #4f9c7a;
   color: #ffffff;
+  border: 2px solid;
+  border-radius: 15px;
 }
 
 .btn2 {

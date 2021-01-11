@@ -6,6 +6,31 @@
           <h1 class="title-cont">{{ title }}</h1>
           <p v-for="cont in content" v-bind:key="cont">{{ cont }}</p>
           <br />
+          <img
+            src="../assets/img/conexiones.png"
+            alt="dispositivos 5G"
+            class="image image-2"
+            v-if="img == 1"
+          />
+          <img
+            src="../assets/img/autonomo.png"
+            alt="dispositivos 5G"
+            class="image image-2"
+            v-if="img == 2"
+          />
+          <img
+            src="../assets/img/Telemedicina2.png"
+            alt="dispositivos 5G"
+            class="image"
+            v-if="img == 3"
+          />
+          <video
+            src="../assets/videos/Ventajas5G.mp4"
+            width="320"
+            height="240"
+            controls
+            v-if="datas.pages[counter].video"
+          ></video>
         </section>
         <button class="btn" @click="prevPage">
           <i class="fas fa-3x fa-arrow-left"></i>

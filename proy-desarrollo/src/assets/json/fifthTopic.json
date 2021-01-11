@@ -3,6 +3,27 @@
     {
       "title":"DESVENTAJAS", 
       "description":["El 5G al utilizar frecuencias de radio más alta, tendrá un rango de cobertura menor", "Requiere de nueva infraestructura (CW), nuevos equipos de operación de 5G.", " Los usuarios deberán adquirir nuevos equipos como teléfonos, tabletas, computadores, etc. "],
+      "imagen":1, 
+      "video":false,
+      "audio":false 
+    },
+    {
+      "title":"DESVENTAJAS", 
+      "description":["Todavía es una tecnología nueva, por lo que no está desarrollada totalmente en países primermundistas ni mucho menos en países del segundo mundo."],
+      "imagen":2, 
+      "video":false,
+      "audio":false 
+    },
+    {
+      "title":"DESVENTAJAS", 
+      "description":["Las empresas que desarrollan dispositivos móviles la usan para publicidad en la venta de dispositivos."],
+      "imagen":3, 
+      "video":false,
+      "audio":false 
+    },
+    {
+      "title":"DESVENTAJAS", 
+      "description":[],
       "imagen":0, 
       "video":true,
       "audio":false 

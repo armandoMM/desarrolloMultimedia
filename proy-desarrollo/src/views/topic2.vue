@@ -13,7 +13,7 @@
             v-if="img == 1"
           />
           <img
-            src="../assets/img/hertz.jpg"
+            src="../assets/img/1-Hz.jpg"
             alt="dispositivos 5G"
             class="image"
             v-if="img == 2"

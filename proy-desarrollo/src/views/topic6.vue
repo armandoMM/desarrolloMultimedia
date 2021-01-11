@@ -8,12 +8,12 @@
           <br /><br />
           <p>Audio sobre la llegada del 5G a México</p>
         </section>
-        <button class="btn" @click="prevPage">
+        <!-- <button class="btn" @click="prevPage">
           <i class="fas fa-3x fa-arrow-left"></i>
         </button>
         <button class="btn btn2" @click="nextPage">
           <i class="fas fa-3x fa-arrow-right"></i>
-        </button>
+        </button> -->
       </div>
     </template>
   </cards>
